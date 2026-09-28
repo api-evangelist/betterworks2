@@ -1,7 +1,6 @@
 aid: betterworks2
 name: Betterworks2
-description: 'Betterworks2 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Betterworks provides real-time performance management and talent intelligence solutions for organizations. Their platform helps align goals, deliver continuous feedback, and drive employee engagement through OKRs, performance reviews, surveys, and analytics. Betterworks enables companies to improve talent development, retention, and overall business results with data-driven insights and integrated HR tools.'
 url: https://raw.githubusercontent.com/api-evangelist/betterworks2/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,7 +10,11 @@ specificationVersion: '0.20'
 created: '2026-09-28'
 modified: '2026-09-28'
 tags:
-- Company
+- Performance Management
+- Talent Intelligence
+- OKR
+- Employee Engagement
+- HR Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/betterworks2-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/betterworks2
+  url: https://www.betterworks.com
+- type: Documentation
+  url: https://www.betterworks.com/resources-library
+- type: Blog
+  url: https://www.betterworks.com/magazine
+- type: Support
+  url: https://support.betterworks.com
